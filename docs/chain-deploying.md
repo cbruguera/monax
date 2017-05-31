@@ -86,25 +86,25 @@ You'll have to `ssh` into each machine:
 On `CL0`, run:
 
 ```bash
-monax chains start multichain --init-dir ~/.monax/chains/multichain_full_000 --logrotate
+monax chains start multichain --init-dir ~/.monax/chains/multichain/multichain_full_000 --logrotate
 ```
 
 On CL1, run:
 
 ```bash
-monax chains start multichain --init-dir ~/.monax/chains/multichain_validator_000 --logrotate
+monax chains start multichain --init-dir ~/.monax/chains/multichain/multichain_validator_000 --logrotate
 ```
 
 On CL2, run:
 
 ```bash
-monax chains start multichain --init-dir ~/.monax/chains/multichain_validator_001 --logrotate
+monax chains start multichain --init-dir ~/.monax/chains/multichain/multichain_validator_001 --logrotate
 ```
 
 On CL3, run:
 
 ```bash
-monax chains start multichain --init-dir ~/.monax/chains/multichain_validator_002 --logrotate
+monax chains start multichain --init-dir ~/.monax/chains/multichain/multichain_validator_002 --logrotate
 ```
 
 And voila! You multi-node, permissioned chain is started!
